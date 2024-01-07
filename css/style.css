@@ -291,6 +291,40 @@ img {
 .contact-text {
   margin-top: 10px;
 }
+
+.contact-form {
+  /* スタイルの設定 */
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button.send-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50; /* ボタンの色 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button.send-button:hover {
+  background-color: #45a049;
+}
+
+.thank-you {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5em;
+  color: #4CAF50; /* テキストの色 */
+}
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
